@@ -24,7 +24,10 @@ def hypotenuse(a,b,c):
         return math.sqrt(a**2 + b**2)
 
 x = hypotenuse(5,3,True)
-print(x)
+print(int(x))
 
 y = hypotenuse(12,5,False)
-print(y)
+print(int(y))
+
+assert hypotenuse(12,5,False) == 13
+assert hypotenuse(5,3,True) == 4
