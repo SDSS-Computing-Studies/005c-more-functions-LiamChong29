@@ -13,8 +13,7 @@ You may want to use the math module to complete this problem
 import math
 
 def area(circle):
-    a = 3.14159265359 * (circle**2)
+    a = math.pi * (circle**2)
     return a
-
 
 assert round(area(2),2) == 12.57
